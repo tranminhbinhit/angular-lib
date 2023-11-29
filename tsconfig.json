@@ -8,6 +8,9 @@
       ],
       "@byn/general-style": [
         "dist/byn/general-style"
+      ],
+      "byn-general-style": [
+        "dist/byn-general-style"
       ]
     },
     "baseUrl": "./",

@@ -1,0 +1,6 @@
+.box-format {
+  padding: 20px;
+  margin: 10px auto;
+  box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}

@@ -1,29 +1,52 @@
-# AngularLib
+# Tạo project lib
+Tạo project & chứa lib
+```
+    ng new lib-angular-byn
+```
+Tạo lib byn-common
+```
+    ng generate library byn-common
+```
+Build lib byn-common
+```
+    ng build byn-common
+```
+Dùng lib
+```
+    - Export tất cả trong 
+        /projects/<lib>/src/public-api.ts
+    - Config dùng lib khi build ra dist
+        tsconfig.json
+            "byn-common": ["dist/byn-common"]    
+        angular.json
+            byn-common
+    - Trong project tạo lib sử dụng bt 
+        import { BynCommonModule, BynSharedUtilsModule } from 'byn-common';
+```
+Public lên npm
+```
+    cd dist/format-paragraph
+    npm login
+    npm publish --access public
+```
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+## Cách triển khai
+Khi phát triển lấy module từ link root
+```
+    import { BynAdminCommonModule } from 'projects/byn-admin-common/src/public-api'; 
+```
 
-## Development server
+Khi chạy thực tế 
+- build ra dish và dùng từ tsconfig.json
+- build publish lên npm và add vào project
+```
+    import { BynCommonModule, BynSharedUtilsModule } from 'byn-common';    
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Link lib demo
+    https://www.npmjs.com/package/byn-common
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-test
+    Gitlab registry
+    https://docs.gitlab.com/ee/user/packages/npm_registry/
