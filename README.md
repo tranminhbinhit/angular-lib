@@ -50,3 +50,7 @@ Khi chạy thực tế
 
     Gitlab registry
     https://docs.gitlab.com/ee/user/packages/npm_registry/
+
+
+    Backbase golden app
+    https://github.com/Backbase/golden-sample-app.git

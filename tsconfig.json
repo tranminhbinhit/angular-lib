@@ -9,6 +9,9 @@
       "@byn/general-style": [
         "dist/byn/general-style"
       ],
+      "byn-form-control": [
+        "dist/byn-form-control"
+      ],
       "byn-general-style": [
         "dist/byn-general-style"
       ]

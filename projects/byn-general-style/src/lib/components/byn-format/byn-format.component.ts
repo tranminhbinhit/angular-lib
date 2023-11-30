@@ -3,7 +3,7 @@ import { Component, OnInit, Input, Renderer2, ElementRef } from '@angular/core';
 @Component({
   selector: 'lib-byn-format',
   templateUrl: './byn-format.component.html',
-  styleUrls: ['./byn-format.component.css']
+  styleUrls: ['./byn-format.component.scss']
 })
 export class BynFormatComponent {
   @Input() color: string = "red"

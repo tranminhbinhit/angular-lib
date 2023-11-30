@@ -1,0 +1,17 @@
+//@import './../../../../../node_modules/byn-general-style/themes/scss/1-variables';
+//@import 'byn-general-style/themes/scss/1-variables';
+// @import 'byn-general-style/themes/scss/main';
+// @import 'bootstrap/scss/variable';
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap-utilities';
+@import '../../../../node_modules/byn-general-style/themes/scss/main.scss';
+// @import 'byn-general-style/themes/scss/main';
+
+.box-testdata{
+    background-color:$switch-checked-bg-color;
+    color: $gray-800;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+    display: inline-block;
+}

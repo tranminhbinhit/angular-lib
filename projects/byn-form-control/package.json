@@ -1,6 +1,6 @@
 {
-  "name": "byn-general-style",
-  "version": "0.0.3",
+  "name": "byn-form-control",
+  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^16.1.0",
     "@angular/core": "^16.1.0"
@@ -8,9 +8,5 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "files": [
-    "themes/scss/*.scss",
-    "themes/scss/**/*.scss"
-  ],
   "sideEffects": false
 }

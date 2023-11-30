@@ -1,0 +1,48 @@
+$color-neutral-white-80: rgba(255, 255, 255, 0.8);
+$color-neutral-100: #dbe4de;
+$color-neutral-300: #cdd1d9;
+$color-neutral-500: #8a9099;
+$color-neutral-800: #272b30;
+$color-warning-character: #cc800d;
+$color-disabled-character: #c3cbc8;
+$color-shadow-high: rgba(13, 13, 13, 0.1);
+$color-shadow-high: rgba(13, 13, 13, 0.1);
+$color-palette-neutral-100: #eff0f2;
+$font-family-base: 'Roboto';
+$font-family-secondary: 'Roboto', 'Manrope', sans-serif;
+$font-color-primary: #0d1117;
+$headings-font-family: 'Manrope';
+$btn-font-family: 'Roboto', 'Manrope', sans-serif;
+$btn-font-weight: 600;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+/* Elevation/Low */
+$elevation-lowest: 0px 1px 2px 0px rgba(40, 45, 42, 0.1), 0px 1px 2px 2px rgba(40, 45, 42, 0.05);
+$elevation-low: 0px 1px 2px 0px rgba(40, 45, 42, 0.1), 0px 2px 6px 2px rgba(40, 45, 42, 0.05);
+$elevation-high: 0px 4px 10px 0px rgba(40, 45, 42, 0.1);
+$elevation-highest: 0px 30px 24px 0px rgba(40, 45, 42, 0.04), 0px 20px 100px 0px rgba(40, 45, 42, 0.02),
+  0px 20px 60px 8px rgba(40, 45, 42, 0.03);
+$elevation-medium: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+
+$layout-topbar-height-mobile: 56px;
+$layout-topbar-height-desktop: 68px;
+
+// backbase switch/toggle variables
+$switch-bg-color: #d3ddd9;
+$switch-border-radius: 100px;
+$switch-width: 3.25rem;
+$switch-height: 2rem;
+$switch-slider-size: 1.25rem;
+$switch-slider-bg-color: #a4aba7;
+$switch-slider-pos-y: 0.375rem;
+$switch-slider-pos-x: 0.375rem;
+$switch-checked-bg-color: #23c481;
+$switch-checked-border-color: #23c481;
+$switch-slider-checked-pos-x: 1rem;
+$switch-slider-translate-x: 0.5rem;
+$switch-box-shadow: none;
+$switch-slider-disabled-bg-color: #d3ddd9;
+$sizing-x-large: 32px;
