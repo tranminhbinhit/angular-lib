@@ -3,5 +3,6 @@
   "dest": "../../../dist/byn/general-style",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": ["src/lib/styles", "src/lib/styles.scss"]
 }
