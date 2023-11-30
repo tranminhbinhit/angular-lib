@@ -2490,10 +2490,10 @@ builtins@^5.0.0:
   dependencies:
     semver "^7.0.0"
 
-byn-general-style@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/byn-general-style/-/byn-general-style-0.0.3.tgz#a92cfee53e331fc899e1a16e4103333c42b52ee2"
-  integrity sha512-+7XPLxoBckDQ4ElfX4wGN15i6To57cn/W7TKhM+unLlOMXVr6fN7KFnZpfEPLb+52a8wdDMcujX+cb+vCYcoWA==
+byn-general-style@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/byn-general-style/-/byn-general-style-0.0.4.tgz#a1f11eaa9b34772ed584ebb39f7b4842428b250a"
+  integrity sha512-ttLKj1s78g9w8XlaKamTfkTF5k/zrzIULjxGPj0su6U3zlm8JzZVAhKRrPIPiK6GyzGoxln6HniKuhpu4EpmlQ==
   dependencies:
     tslib "^2.3.0"
 
